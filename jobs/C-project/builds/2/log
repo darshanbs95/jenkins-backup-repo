@@ -1,0 +1,24 @@
+Started by user [8mha:////4HT9cdgNrUeHPxE/D/N34v08wlrx5GsClNWr71P8bBAbAAAAmR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzuEgZe/dLi1CL9lMSi4ozEPAAO+HXowgAAAA==[0mDarshan B S
+Running as SYSTEM
+Building in workspace /var/lib/jenkins/workspace/C-project
+The recommended git tool is: NONE
+No credentials specified
+ > git rev-parse --resolve-git-dir /var/lib/jenkins/workspace/C-project/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/darshanbs95/c-project.git # timeout=10
+Fetching upstream changes from https://github.com/darshanbs95/c-project.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.27.0'
+ > git fetch --tags --force --progress -- https://github.com/darshanbs95/c-project.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+Checking out Revision 2cf74616f0badfa7f0e3d117e9e3585babf34262 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 2cf74616f0badfa7f0e3d117e9e3585babf34262 # timeout=10
+Commit message: "node.js"
+ > git rev-list --no-walk 2cf74616f0badfa7f0e3d117e9e3585babf34262 # timeout=10
+[C-project] $ /bin/sh -xe /tmp/jenkins8004852933855762486.sh
++ cd /var/lib/jenkins/workspace/job
++ make
+/tmp/jenkins8004852933855762486.sh: line 4: make: command not found
+Build step 'Execute shell' marked build as failure
+Finished: FAILURE

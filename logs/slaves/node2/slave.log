@@ -1,0 +1,4 @@
+SSHLauncher{host='54.89.138.244', port=22, credentialsId='6332ff33-bd2b-4860-ac2b-cf1c24a2454a', jvmOptions='', javaPath='', prefixStartSlaveCmd='', suffixStartSlaveCmd='', launchTimeoutSeconds=60, maxNumRetries=10, retryWaitTime=15, sshHostKeyVerificationStrategy=hudson.plugins.sshslaves.verifiers.ManuallyTrustedKeyVerificationStrategy, tcpNoDelay=true, trackCredentials=true}
+[03/02/22 06:27:12] [SSH] Opening SSH connection to 54.89.138.244:22.
+connect timed out
+SSH Connection failed with IOException: "connect timed out", retrying in 15 seconds. There are 10 more retries left.

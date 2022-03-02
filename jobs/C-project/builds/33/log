@@ -1,0 +1,28 @@
+Started by user [8mha:////4HT9cdgNrUeHPxE/D/N34v08wlrx5GsClNWr71P8bBAbAAAAmR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzuEgZe/dLi1CL9lMSi4ozEPAAO+HXowgAAAA==[0mDarshan B S
+Running as SYSTEM
+Building remotely on [8mha:////4HSNFy05KJiZqVrBVcnisk7nzkRaVW6GD2QJHVmHtaNjAAAAmh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZ+/eT83ILSktQi/TygOw0BADPgR8QAAAA=[0mnode1 in workspace /home/ec2-user/workspace/C-project
+The recommended git tool is: NONE
+using credential 6332ff33-bd2b-4860-ac2b-cf1c24a2454a
+ > git rev-parse --resolve-git-dir /home/ec2-user/workspace/C-project/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/darshanbs95/c-project.git # timeout=10
+Fetching upstream changes from https://github.com/darshanbs95/c-project.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.27.0'
+using GIT_SSH to set credentials node222
+[INFO] Currently running in a labeled security context
+[INFO] Currently SELinux is 'enforcing' on the host
+ > /usr/bin/chcon --type=ssh_home_t /home/ec2-user/workspace/C-project@tmp/jenkins-gitclient-ssh7031294885292995438.key
+ > git fetch --tags --force --progress -- https://github.com/darshanbs95/c-project.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+Checking out Revision 0b6b7b03c67c3e766044c8ca49ae48a57642c052 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 0b6b7b03c67c3e766044c8ca49ae48a57642c052 # timeout=10
+Commit message: "Update test1"
+ > git rev-list --no-walk 0b6b7b03c67c3e766044c8ca49ae48a57642c052 # timeout=10
+[C-project] $ /bin/sh -xe /tmp/jenkins2382449853640304616.sh
++ cd /home/ec2-user/workspace/C-project
++ make
+make: 'ABC.exe' is up to date.
++ rm -rf big2.o big3.o fact.o fibo.o main.o pali.o rev.o sort.o sum.o
+Finished: SUCCESS
